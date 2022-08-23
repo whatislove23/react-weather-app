@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Patrick Hand', cursive;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+body{
+    background-color: aliceblue;
+
+}
+.animate-spin{
+
+    animation: spin 4s linear infinite;
+}
+*::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .leaflet-container {
+    height: 300px;
+    width: 100%;
+
+}
+@media (min-width: 1000px) {
+    .leaflet-container {
+        height: 500px;
+        
+    
+    }
+ }
