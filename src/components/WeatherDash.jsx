@@ -79,7 +79,7 @@ export default ({
   // ];
 
   return (
-    <div className=" w-4/5 mx-auto bg-gradient-to-b from-sky-400 to-sky-200 text-white rounded-xl p-2 shadow-inner mt-10 flex flex-col items-center container 2xl">
+    <div className="w-4/5 mx-auto bg-gradient-to-b from-sky-400 to-sky-200 text-white rounded-xl p-2 shadow-inner mt-10 flex flex-col items-center container 2xl">
       <h1 className="text-center text-3xl sm:text-5xl">
         Weather in {city_name || "Kharkiv"}
       </h1>
