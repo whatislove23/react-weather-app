@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-weather-app/static/css/main.2ea2d920.css",
-    "main.js": "/react-weather-app/static/js/main.1be52f38.js",
+    "main.css": "/react-weather-app/static/css/main.38bad340.css",
+    "main.js": "/react-weather-app/static/js/main.b8187ceb.js",
     "static/media/weathericons-regular-webfont.svg": "/react-weather-app/static/media/weathericons-regular-webfont.1341a15172cec8dae06e.svg",
     "static/media/weathericons-regular-webfont.eot": "/react-weather-app/static/media/weathericons-regular-webfont.bb2ec001c20cf752f852.eot",
     "static/media/weathericons-regular-webfont.ttf": "/react-weather-app/static/media/weathericons-regular-webfont.0942d1e1c447d6ce3ffc.ttf",
     "static/media/weathericons-regular-webfont.woff": "/react-weather-app/static/media/weathericons-regular-webfont.371511ddba5fdac0538c.woff",
     "static/media/weathericons-regular-webfont.woff2": "/react-weather-app/static/media/weathericons-regular-webfont.e218aee6928fe3da9ed6.woff2",
     "index.html": "/react-weather-app/index.html",
-    "main.2ea2d920.css.map": "/react-weather-app/static/css/main.2ea2d920.css.map",
-    "main.1be52f38.js.map": "/react-weather-app/static/js/main.1be52f38.js.map"
+    "main.38bad340.css.map": "/react-weather-app/static/css/main.38bad340.css.map",
+    "main.b8187ceb.js.map": "/react-weather-app/static/js/main.b8187ceb.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ea2d920.css",
-    "static/js/main.1be52f38.js"
+    "static/css/main.38bad340.css",
+    "static/js/main.b8187ceb.js"
   ]
 }
