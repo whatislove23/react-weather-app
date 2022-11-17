@@ -1,7 +1,5 @@
 import { TbTemperatureCelsius, TbSunrise, TbSunset } from "react-icons/tb";
-import { WeatherIcon } from "weather-react-icons";
 import Day from "./Day";
-
 export default ({
   city_name,
   weather,
@@ -11,73 +9,6 @@ export default ({
   sunset,
   forecast,
 }) => {
-  // let data = [
-  //   {
-  //     valid_date: "2018-04-22",
-  //     weather: { code: 200, description: "Super very raining day" },
-  //     max_temp: 25,
-  //     min_temp: 20,
-  //     wind_spd: 3.5,
-  //     pres: 1000,
-  //   },
-  //   {
-  //     valid_date: "2018-04-22",
-  //     weather: { code: 200 },
-  //     max_temp: 25,
-  //     min_temp: 20,
-  //     wind_spd: 3.5,
-  //     pres: 1000,
-  //   },
-  //   {
-  //     valid_date: "2018-04-22",
-  //     weather: { code: 200 },
-  //     max_temp: 25,
-  //     min_temp: 20,
-  //     wind_spd: 3.5,
-  //     pres: 1000,
-  //   },
-  //   {
-  //     valid_date: "2018-04-22",
-  //     weather: { code: 200 },
-  //     max_temp: 25,
-  //     min_temp: 20,
-  //     wind_spd: 3.5,
-  //     pres: 1000,
-  //   },
-  //   {
-  //     valid_date: "2018-04-22",
-  //     weather: { code: 200 },
-  //     max_temp: 25,
-  //     min_temp: 20,
-  //     wind_spd: 3.5,
-  //     pres: 1000,
-  //   },
-  //   {
-  //     valid_date: "2018-04-22",
-  //     weather: { code: 200 },
-  //     max_temp: 25,
-  //     min_temp: 20,
-  //     wind_spd: 3.5,
-  //     pres: 1000,
-  //   },
-  //   {
-  //     valid_date: "2018-04-22",
-  //     weather: { code: 200 },
-  //     max_temp: 25,
-  //     min_temp: 20,
-  //     wind_spd: 3.5,
-  //     pres: 1000,
-  //   },
-  //   {
-  //     valid_date: "2018-04-22",
-  //     weather: { code: 200 },
-  //     max_temp: 25,
-  //     min_temp: 20,
-  //     wind_spd: 3.5,
-  //     pres: 1000,
-  //   },
-  // ];
-
   return (
     <div className="w-4/5 mx-auto bg-gradient-to-b from-sky-400 to-sky-200 text-white rounded-xl p-2 shadow-inner mt-10 flex flex-col items-center container 2xl">
       <h1 className="text-center text-3xl sm:text-5xl">
@@ -86,7 +17,7 @@ export default ({
       <div className="flex flex-col items-center mt-3">
         <div className=" flex items-center gap-3 text-xl sm:text-2xl">
           <div className="flex items-center gap-1 ">
-            <WeatherIcon iconId={weather?.code || 200} name="owm" />
+            {/* <WeatherIcon iconId={800} name="owm" /> */}
             <p>{weather?.description || "Sunny"}</p>
           </div>
           <div className="flex items-center gap-3  ">

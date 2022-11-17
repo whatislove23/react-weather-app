@@ -1,7 +1,7 @@
 import { useMemo, useRef, useState } from "react";
-import "leaflet/dist/leaflet.css";
 import { MapContainer, TileLayer, Marker } from "react-leaflet";
 import L from "leaflet";
+import "leaflet/dist/leaflet.css";
 
 const defaultMarker = new L.icon({
   iconUrl: "https://unpkg.com/leaflet@1.4.0/dist/images/marker-icon.png",

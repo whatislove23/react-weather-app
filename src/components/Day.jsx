@@ -1,5 +1,4 @@
 import { FaTemperatureHigh, FaTemperatureLow } from "react-icons/fa";
-import { WeatherIcon } from "weather-react-icons";
 import { WiStrongWind, WiBarometer } from "react-icons/wi";
 export default ({ day }) => {
   return (
@@ -9,11 +8,6 @@ export default ({ day }) => {
       </div>
       <div className="px-5">
         <div className="text-gray-800 flex flex-col items-center my-2  text-center text-lg">
-          <WeatherIcon
-            iconId={day.weather.code}
-            name="owm"
-            className="text-2xl mt-2"
-          />
           {day.weather.description}
         </div>
         <div className="flex items-center gap-2 justify-center text-gray-800 text-lg">
