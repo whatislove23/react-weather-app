@@ -14,10 +14,10 @@ function App() {
     setLoading(true);
     Promise.all([
       fetch(
-        `https://api.weatherbit.io/v2.0/current?lat=${lat}&lon=${long}&key=8f570a89f3134ecc8bfbedf288cba981`
+        `https://api.weatherbit.io/v2.0/current?lat=${lat}&lon=${long}&key=434565ddc91c44d99d7aa409a0b5b23a`
       ),
       fetch(
-        `https://api.weatherbit.io/v2.0/forecast/daily?NC&key=8f570a89f3134ecc8bfbedf288cba981&days=8&lat=${lat}&lon=${long}`
+        `https://api.weatherbit.io/v2.0/forecast/daily?NC&key=434565ddc91c44d99d7aa409a0b5b23a&days=8&lat=${lat}&lon=${long}`
       ),
     ])
       .then((res) => Promise.all(res.map((el) => el.json())))
